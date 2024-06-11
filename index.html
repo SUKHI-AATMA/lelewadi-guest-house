@@ -13,9 +13,12 @@
     <a id="home"></a>
     <header class="sticky z-50 top-0 w-full  shadow-lg">
         <nav class="relative px-8 py-4 flex justify-between items-center bg-white">
-            <a class="text-3xl font-bold leading-none" href="#">
-                <img loading="lazy" src="images/lele-wadi.webp" alt="LELE WADI Guest House" class="w-full max-w-16">
-            </a>
+            <div class="flex">
+                <a class="text-3xl font-bold leading-none" href="#">
+                    <img loading="lazy" src="images/lele-wadi.webp" alt="LELE WADI Guest House" class="w-full max-w-16">
+                </a>
+                <div class="flex items-center mx-5"><img src="images/mtdc-approved.webp" alt=""></div>
+            </div>
             <div class="lg:hidden">
                 <button class="navbar-burger flex items-center text-blue-600 w-[35px]">
                     <svg class="block h-auto w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"
@@ -41,18 +44,18 @@
                     </svg>
                 </button>
             </div>
-            <ul class="hidden lg:flex lg:flex lg:space-x-12 navbar-menu w-full lg:w-auto">
-                <li><a class=" text-lg lg:text-sm hover:text-gray-500" href="#home">Home</a></li>
+            <ul class="hidden lg:flex lg:space-x-12 navbar-menu w-full lg:w-auto">
+                <li><a class="nav-link active" href="#home">Home</a></li>
 
-                <li><a class=" text-lg lg:text-sm hover:text-gray-500" href="#about">About Us</a></li>
-                <li><a class=" text-lg lg:text-sm hover:text-gray-500" href="#thingstodo">Things to do</a></li>
+                <li><a class="nav-link" href="#about">About Us</a></li>
+                <li><a class="nav-link" href="#thingstodo">Things to do</a></li>
 
 
-                <li><a class=" text-lg lg:text-sm hover:text-gray-500" href="#pricing">Pricing</a></li>
-                <li><a class=" text-lg lg:text-sm hover:text-gray-500" href="#testimonials">Testimonials</a></li>
-                <li><a class=" text-lg lg:text-sm hover:text-gray-500" href="#gallery">Gallery</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li><a class="nav-link" href="#gallery">Gallery</a></li>
 
-                <li><a class=" text-lg lg:text-sm hover:text-gray-500" href="#contact">Contact</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
             <!-- <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200"
                 href="#">Sign In</a>
@@ -119,9 +122,9 @@
                 <p class="text-stone-100 text-base">
                     Rest easy stay well.
                 </p>
-                <button
+                <a href="#contact"
                     class="mt-8 bg-yellow-400 text-white uppercase py-4 text-base font-light px-10 border border-white rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors duration-100 ease-in">CONTACT
-                    US</button>
+                    US</a>
             </div>
         </div>
     </div>
@@ -137,7 +140,7 @@
                 </div> -->
                     <div class="lg:max-w-xl lg:pr-5 relative z-40">
                         <p class="flex text-sm uppercase text-g1  "></p>
-                        
+
                         <h2
                             class="text-yellow-400 dark:text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]">
                             About Us
@@ -756,6 +759,57 @@
             </div>
         </div>
     </div>
+    <a id="gallery"></a>
+    <div class="container mx-auto py-20 lg:py-[120px]">
+        <h2
+            class="text-yellow-400 dark:text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px] text-center">
+            Gallery
+        </h2>
+        <div class="flex gap-4 mt-10">
+            <div class="grid grid-cols-3 gap-4">
+
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/p_gate.jpg" alt="">
+                </div>
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/6koba.jpg" alt="">
+                </div>
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/2bldg2.jpg" alt="">
+                </div>
+
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/p_play_area.jpg" alt=""></div>
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/p_play_area1.jpg" alt=""></div>
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/p_umbrella.jpg" alt=""></div>
+
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/p_zula1.jpg" alt="">
+                </div>
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/p_zula.jpg" alt="">
+                </div>
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/exterior_games.jpg" alt=""></div>
+
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/p_building_enretance.jpg" alt=""></div>
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/3village.jpg" alt="">
+                </div>
+                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
+                        src="images/4supari.jpg" alt="">
+                </div>
+                <div class="w-full h-screen overflow-hidden col-span-3"><iframe class="w-full h-screen"
+                        src="https://www.youtube-nocookie.com/embed/uKx5m-EfxS8?si=c8CoQ8Unh4vxzAmt"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </div>
     <!-- ====== Contact Section Start -->
     <a id="contact"></a>
     <section class="relative z-10 overflow-hidden bg-white dark:bg-dark py-20 lg:py-[120px]">
@@ -1134,57 +1188,7 @@
         </div>
     </section>
     <!-- ====== Contact Section End -->
-    <a id="gallery"></a>
-    <div class="container mx-auto py-20 lg:py-[120px]">
-        <h2
-            class="text-yellow-400 dark:text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px] text-center">
-            Gallery
-        </h2>
-        <div class="flex gap-4 mt-10">
-            <div class="grid grid-cols-3 gap-4">
-
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/p_gate.jpg" alt="">
-                </div>
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/6koba.jpg" alt="">
-                </div>
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/2bldg2.jpg" alt="">
-                </div>
-
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/p_play_area.jpg" alt=""></div>
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/p_play_area1.jpg" alt=""></div>
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/p_umbrella.jpg" alt=""></div>
-
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/p_zula1.jpg" alt="">
-                </div>
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/p_zula.jpg" alt="">
-                </div>
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/exterior_games.jpg" alt=""></div>
-
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/p_building_enretance.jpg" alt=""></div>
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/3village.jpg" alt="">
-                </div>
-                <div class="aspect-video"><img loading="lazy" class="aspect-video w-full rounded-lg"
-                        src="http://www.lelewadialibag.com/4supari.jpg" alt="">
-                </div>
-                <div class="w-full h-screen overflow-hidden col-span-3"><iframe class="w-full h-screen"
-                        src="https://www.youtube-nocookie.com/embed/uKx5m-EfxS8?si=c8CoQ8Unh4vxzAmt"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe></div>
-            </div>
-        </div>
-    </div>
+    
     <!-- <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
