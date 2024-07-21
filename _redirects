@@ -1,0 +1,11 @@
+# Redirects from what the browser requests to what we serve
+/links.html         /
+/aboutus.html       /#about
+/accomodation.html  /#pricing
+/photos.html        /#gallery
+/highlights.html    /#thingstodo
+/rooms_tariff.html  /#pricing
+/howtoreach.html    /#contact
+/placestosee.html   /#thingstodo
+/contactus.html     /#contact
+/main.html          /
